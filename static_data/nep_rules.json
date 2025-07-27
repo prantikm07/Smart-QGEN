@@ -1,0 +1,66 @@
+{
+  "nep_2020_guidelines": {
+    "assessment_framework": {
+      "competency_based": {
+        "description": "Focus on what students can do with knowledge",
+        "implementation": [
+          "Real-world problem solving",
+          "Application-based questions",
+          "Scenario-based assessment"
+        ]
+      },
+      "holistic_development": {
+        "cognitive_skills": ["critical thinking", "problem solving", "creativity"],
+        "life_skills": ["communication", "collaboration", "leadership"],
+        "values": ["ethical reasoning", "cultural awareness", "environmental consciousness"]
+      }
+    },
+    "question_distribution": {
+      "cognitive_levels": {
+        "remember": {"percentage": 20, "description": "Recall facts and basic concepts"},
+        "understand": {"percentage": 25, "description": "Explain ideas or concepts"},
+        "apply": {"percentage": 25, "description": "Use information in new situations"},
+        "analyze": {"percentage": 15, "description": "Draw connections among ideas"},
+        "evaluate": {"percentage": 10, "description": "Justify decisions or courses of action"},
+        "create": {"percentage": 5, "description": "Produce new or original work"}
+      }
+    },
+    "assessment_types": {
+      "formative": {
+        "percentage": 40,
+        "frequency": "ongoing",
+        "purpose": "improve learning"
+      },
+      "summative": {
+        "percentage": 60,
+        "frequency": "periodic",
+        "purpose": "evaluate learning outcomes"
+      }
+    },
+    "question_guidelines": {
+      "mcq_limitations": {
+        "max_percentage": 30,
+        "focus": "conceptual understanding",
+        "avoid": "rote memorization"
+      },
+      "application_questions": {
+        "min_percentage": 40,
+        "types": ["case studies", "real-world scenarios", "problem-solving"],
+        "skills_tested": ["analysis", "synthesis", "evaluation"]
+      },
+      "interdisciplinary": {
+        "encouraged": true,
+        "approach": "connect subjects",
+        "examples": ["math in science", "history in literature", "art in science"]
+      }
+    },
+    "time_allocation": {
+      "reading_time": 15,
+      "mcq_per_minute": 1.5,
+      "short_answer_minutes": 3,
+      "medium_answer_minutes": 8,
+      "long_answer_minutes": 15,
+      "revision_time": 30
+    }
+  }
+}
