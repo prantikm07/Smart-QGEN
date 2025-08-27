@@ -2,9 +2,10 @@ import os
 from dotenv import load_dotenv
 import google.generativeai as genai
 
+
 load_dotenv()
 GEMINI_API_KEY = os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=GEMINI_API_KEY) #type: ignore
 
 MODEL_NAME = "models/gemini-2.0-flash-lite"
 
@@ -57,7 +58,7 @@ Also include: Answers of MCQs after the paper.
 
 def generate_question_paper(syllabus_text, mark1, mark5, mark10, toughness, institute):
     prompt = make_prompt(syllabus_text, mark1, mark5, mark10, toughness, institute)
-    model = genai.GenerativeModel(MODEL_NAME)
+    model = genai.GenerativeModel(MODEL_NAME) #type: ignore
     resp = model.generate_content(prompt)
     return resp.text if hasattr(resp, "text") else str(resp)
 
