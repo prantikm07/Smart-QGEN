@@ -1,0 +1,58 @@
+Database system architecture: 
+Data Abstraction, Data 
+Independence,Data Definition 
+Language(DDL),Data Manipulation 
+Language(DML).
+Data models: Entity-relationship 
+model, network model, relational 
+and object oriented data models, 
+integrity constraints, data 
+manipulation operations.
+9
+Maulana Abul Kalam Azad University of Technology, West Bengal
+(Formerly West Bengal University of Technology) 
+Syllabus for B. Tech in Computer Science & Engineering 
+(Applicable from the academic session 2018-2019)
+2
+PG
+2
+Relational query languages: 
+Relational algebra, Tuple and domain 
+relational calculus, SQL3, DDL and 
+DML constructs, Open source and 
+Commercial DBMS - MYSQL, 
+ORACLE, DB2, SQLserver.
+Relational database design: 
+Domain and data dependency, 
+Armstrong’s axioms, Normal forms, 
+Dependency preservation, 
+Losslessdesign.
+Query processing and 
+optimization: Evaluation of 
+relational algebra expressions, 
+Query equivalence, Join 
+strategies, Query optimization 
+algorithms.
+13
+3
+Storage strategies: Indices, B-trees, hashing. 3
+4.
+Transaction processing: Concurrency 
+control, ACID property, 
+Serializability of scheduling, Locking 
+and timestamp based schedulers, Multiversion and optimistic Concurrency 
+Control schemes, Database recovery.
+5
+5 Database Security: Authentication, 
+Authorization and access control, 
+DAC, MAC and RBAC models, 
+Intrusion detection, SQL injection.
+3
+6 Advanced topics: Object oriented and 
+object relational databases, Logical 
+databases, Web databases, Distributed 
+databases, Data warehousing and data 
+mining.
+3
+Text book and Reference books:
+1.“Database System Concepts” , 6th Edition b

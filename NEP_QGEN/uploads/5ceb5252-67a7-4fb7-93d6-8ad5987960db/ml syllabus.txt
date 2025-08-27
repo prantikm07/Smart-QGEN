@@ -1,0 +1,317 @@
+ Learning outcomes of course (i.e., statements on students’ understanding and skills at the end of the course the
+ student shall have):
+ Essential (<=6):
+ 1. Understanding popular ML algorithms with their associated mathematical foundations for appreciating
+ these algorithms.
+ 2. Capability to implement basic algorithms using basic machine learning libraries mostly in python. Gain
+ hands-on experience in applying ML to problems encountered in various domains. In addition, obtain
+ exposure to high-level ML libraries or frameworks such as TensorFlow, PyTorch.
+ 3. Make aware of the role of data in the future of computing, and also in solving real-world problems using
+ machine learning algorithms.
+ 4. Help connect real-world problems to appropriate ML algorithm(s) for solving them. Enable formulating
+ real world problems as machine learning tasks.
+ 5. Appreciate the mathematical background behind popular ML algorithms.
+ 6. Ensure awareness about importance of core CS principles such as algorithmic thinking and systems
+ design in ML
+ Desirable/Advanced (<= 3):
+ 1. Have sound mathematical understanding of popular ML algorithms
+ 2. Preparedness to use state of the art machine learning algorithms in  formulating and solving new
+ problems.
+ 3. Capability to train (or solve optimization problems)  ML models  with  applications in real-world use cases.
+ Detailed contents for essential learning outcomes:
+ Module
+ (appx
+ duration of 3
+ weeks or
+ 9-12 Hrs)
+ Introduction to
+ ML
+ Topics
+ (i) Motivation and role of
+ machine learning in
+ computer science and
+ problem solving
+ Pedagogy / teaching suggestions
+ Nature of lab / assignment /
+ practice
+ (i) Connect machine learning to the
+ broader theme of Computer Science
+ (ii) Representation
+ (features), linear
+ transformations, Appreciate
+ (ii) Expose broad canvas of machine
+ learning; brief history and importance
+ (i) Experiments/notebooks/code
+ that refresh Python, programming
+ frameworks used for the course
+ (ii) Experiments/Code that allows
+ students to appreciate
+ mathematics and data
+linear transformations and
+ matrix vector operations in
+ the context of data and
+ representation.
+ (iii) Problem formulations
+ (classification and
+ regression).
+ (iv) Appreciate the probability
+ distributions in the context of
+ data, Prior probabilities and
+ Bayes Rule.
+ (v) Introduce paradigms of
+ Learning (primarily
+ supervised and
+ unsupervised. Also a brief
+ overview of others)
+ Fundamentals
+ of ML
+ Selected
+ Algorithms
+ (i) PCA and Dimensionality
+ Reduction,
+ (ii) Nearest Neighbours and
+ KNN.
+ (iii) Linear Regression
+ (iv) Decision Tree Classifiers
+ (iv) Notion of  Generalization
+ and concern of Overfitting
+ (v) Notion of Training,
+ Validation and Testing;
+ Connect to generalisation
+ and overfitting.
+ (i) Ensembling and RF
+ (ii) Linear SVM,
+ (iii) K Means,
+ (iv) Logistic Regression
+ (v) Naive Bayes
+ (iii)Role of data, Connection to the
+ knowledge /experience in learning.
+ (iv)Show successful examples of
+ machine learning in Industry/working
+ (v) Motivate students by Showing
+ how ML and Data driven solutions
+ could help in our day to day problems
+ around (interdisciplinary such as
+ agriculture, healthcare, education,
+ living etc.)
+ (vi)Refresh the basic mathematical
+ notions that students may know
+ (vectors, matrices, probabilities, etc.)
+ with examples in ML
+ (vii) Make students aware of relevant
+ topics like  “what is learnable”? And
+ “what are the disadvantages of data
+ driven solutions”.
+ (i)Focus on mathematical and
+ algorithmic precise description of the
+ content.
+ (ii)Insights into these algorithms,
+ why? When? What are the
+ limitations? Why multiple algorithms
+ exists for a specific problem
+ (iii)Insights into the notion of
+ generalization. Challenges for
+ generalization. Assumptions to make
+ (iv)Practical insights and tops on
+ avoiding overfitting.
+ (i) Make students appreciate the role
+ of optimization in machine learning.
+ Challenges in optimization and why
+ we are sometimes happy with
+ sub-optimal solutions. How
+ assumptions make the algorithms
+ simple/tractable.
+ (ii) Make students appreciate the role
+ of uncertainty in data and machine
+ learning problems/solutions. Give
+ probabilistic insights into Loss
+ functions (em MSE, cross entropy)
+ manipulation. Appreciate (a)
+ Features, Representation of the
+ data/real-world phenomena (b)
+ mathematical operations or
+ transformations that manipulate
+ the data (c) plot/visualise the data
+ distributions (say in 2D) (d) eigen
+ values, eigen vectors, rank of
+ matrices.
+ (iii)Lab/Experiments that
+ appreciate the problem of
+ Classification and problem of
+ Regression
+ (iv)Lab/Experiments that
+ appreciates the notions related to
+ “Training” and “Testing” by
+ considering algorithms like
+ decision trees, nearest neighbour
+ as black boxes.
+ (i) Dimensionality Reduction
+ using PCA and its applications in
+ (a) removing irrelevant features
+ (b) compression /compaction (c)
+ efficient ML pipeline
+ (ii)Experiment related to Nearest
+ neighbour classifier, (a) visualize
+ the decision boundaries (b)
+ appreciate the role of
+ hyperparameter K. Role of
+ validation data in choice of hyper
+ parameters
+ (iii) Decision Tree as a classifier
+ and see the overfitting with
+ “deep” trees. How the overfitting
+ can be controlled by seeing
+ validation performance during the
+ training.
+ (i)Experiments related to
+ K-Means, by varying  in “K”,
+ “initialization”. How the “analysis
+ of the algorithm” can be seen in
+ the lab (eg. change of objective
+ across iterations). Try multiple
+ datasets. Appreciate that
+ “unsupervised discovery” makes
+ sense in the problem under
+ consideration.
+ (ii)An experiment that
+ demonstrates how SVM can yield
+(iii)Introduce iterative algorithms,
+ convergence, role of initialization etc.
+ in a class of ML solutions.
+ (iv)Connect the geometric view of
+ Margin (eg, linear SVM) and
+ Probabilistic View of Margin (Logistic
+ Regression)  and the need of
+ Generalization
+ a solution better than a simple
+ linear separating solution.
+ Appreciate the role of support
+ vectors. Appreciate how SVMs
+ extend to problems even if data is
+ not linearly separable.
+ (iii)An experiment that makes
+ students appreciate the utility of
+ naive Bayes classifier in practice
+ (say designing a text classifier).
+ Neural
+ Network
+ Learning
+ (i) Role of Loss Functions
+ and Optimization,
+ (ii) Gradient Descent and
+ Perceptron/Delta Learning,
+ (iii) MLP,
+ (iv) Backpropagation
+ (v) MLP for Classification
+ and Regression,
+ (vi) Regularisation, Early
+ Stopping
+ (vii) Introduction to Deep
+ Learning
+ (viii) CNNs
+ (i)Appreciate (a) the neuron model (b)
+ the neural network and its utility in
+ modelling and solving the problem.
+ Connect to the biological motivations
+ and parallelism.
+ (ii)Expose the simple elegant
+ optimization scheme of gradient
+ descent with associated mathematical
+ rigour and insights.
+ (iii)Expose the practical issues in
+ extending GD to multiple layers and
+ how the backpropagation algorithm
+ efficiently computes the gradients.
+ (iv)Expose the practical challenges in
+ training a neural network (such as
+ non-convexity, initialization, size of
+ data, number of parameters) and how
+ they are taken care of in the practical
+ implementations of today.
+ (v)Appreciate the need for empirical
+ skills in training neural networks.
+ (i)Experiment that exposes the
+ GD and BP in simple neural
+ networks. Show the learning
+ process (graphs) and
+ performances.
+ (ii)Experiment that use a modern
+ library and implementation of a
+ deep neural network, expose
+ computational graphs, expose
+ the generalized way of
+ appreciating BP as a learning
+ algorithm in Deep Neural
+ Networks
+ (iii)Experiment that uses a
+ popular CNN architecture for
+ practical application (say image
+ classification).
+ (iv)Experiments that strengthen
+ the empirical skills in training with
+ (a) initializations (b) update
+ strategies (c) regularisation (d)
+ multi fold validation on a
+ small/medium size deep neural
+ network that can be trained in 5
+ minutes.
+ Detailed Contents for Desirable Learning Outcomes (optional, <= 3 modules):
+ Module Topics Pedagogy teaching suggestions Nature of lab / assignment
+ / practice
+ Key Concepts
+ from ML
+ Kernels (with SVM),
+ Bayesian Methods,
+ Generative Methods, HMM,
+ EM, PAC learning
+ Focus on mathematical and
+ analytical skills. Expose the intuition
+ behind these algorithms. Introduce
+ Python notebooks that
+ demonstrate the use of
+ these algorithms on public
+ datasets
+analysis of machine learning using a
+ PAC model.
+ Deep Learning
+ Architectures
+ Popular  CNN
+ Architectures, RNNs,
+ GANS and Generative
+ Models,
+ Introduce popular architectures,
+ models, and the use of it in various
+ settings.
+ 1. Use of popular
+ architectures for
+ pretrained features
+ and transfer learning
+ 2. Use of RNNs in
+ learning “language
+ models” in large text
+ corpus (charRNN)
+ 3. Capability and
+ practical challenged
+ in working with GANS
+ Training Todays
+ Neural Networks
+ Advances in
+ Backpropagation and
+ Optimization for Neural
+ Networks
+ Adversarial Learning
+ Appreciate the challenges in
+ large non-convex optimization
+ and how many of today's design
+ choices have helped.
+ 1. See how (i)
+ initialization (ii)
+ momentum (iii)
+ update rules have
+ helped in getting
+ better minima/soln.
+ 2. Experience how
+ regularisation helps
+ in avoiding
+ overfitting and
+ getting bette
